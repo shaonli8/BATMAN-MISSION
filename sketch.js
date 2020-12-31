@@ -151,9 +151,9 @@ function draw(){
     text("TwoFaceLife:"+score, 350,50)
     text("Blade1Life:"+laser1S, 350,65)
     text("Blade2Life:"+laser2S, 350,80)
-    text("Blade1Life:"+laser3S, 350,95)
-    text("Blade1Life:"+laser4S, 350,110)
-    text("Blade1Life:"+laser5S, 350,125)
+    text("Blade3Life:"+laser3S, 350,95)
+    text("Blade4Life:"+laser4S, 350,110)
+    text("Blade5Life:"+laser5S, 350,125)
     drawSprites();
   }
 
@@ -194,7 +194,7 @@ function createBatarang() {
   batarang.scale=0.4;
   batarang.y=batman.y;
   batarang.x=batman.x;
-  batarang.debug=true;
+  //batarang.debug=true;
   batarang.setCollider("rectangle",0,0,100,20)
   //batarang.rotation;
   batarang.rotationSpeed=6;
