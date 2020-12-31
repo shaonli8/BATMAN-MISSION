@@ -148,12 +148,12 @@ function draw(){
       twoface.destroy();
       gameState = "end"
     }
-    text("TwoFaceLife:"+score, 350,50)
-    text("Blade1Life:"+laser1S, 350,65)
-    text("Blade2Life:"+laser2S, 350,80)
-    text("Blade3Life:"+laser3S, 350,95)
-    text("Blade4Life:"+laser4S, 350,110)
-    text("Blade5Life:"+laser5S, 350,125)
+    text("TwoFaceDeath:"+score, 350,50)
+    text("Blade1Death:"+laser1S, 350,65)
+    text("Blade2Death:"+laser2S, 350,80)
+    text("Blade3Death:"+laser3S, 350,95)
+    text("Blade4Death:"+laser4S, 350,110)
+    text("Blade5Death:"+laser5S, 350,125)
     drawSprites();
   }
 
